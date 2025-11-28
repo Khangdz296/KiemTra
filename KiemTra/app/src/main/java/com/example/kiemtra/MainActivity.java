@@ -67,8 +67,6 @@ public class MainActivity extends AppCompatActivity {
         } else {
             tvGreeting.setText("Hi! TechZone Member");
         }
-
-        imgAvatar.setImageResource(R.drawable.ic_launcher_background);
     }
 
     // --- PHẦN 2: CẤU HÌNH RECYCLERVIEW (CATEGORY) ---
