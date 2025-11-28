@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id imgProduct
+id main
+id progressBarLoadMore
+id rcvProduct
+id tvProductName
+id tvProductPrice
+layout activity_main
+layout activity_product_list
+layout item_product
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.KiemTra
+style Theme.KiemTra
+xml backup_rules
+xml data_extraction_rules
