@@ -41,4 +41,14 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    // 23162028 - Cao Dang Huy
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation("androidx.cardview:cardview:1.0.0")
+
+    // 23162028 - Cao Dang Huy Networking (Retrofit + Gson)
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    // 23162028 - Cao Dang Huy Image Loading (Glide)
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 }
