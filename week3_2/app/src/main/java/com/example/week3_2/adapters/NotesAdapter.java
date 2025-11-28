@@ -1,4 +1,4 @@
-package com.haoht.ex4.adapters;
+package com.example.week3_2.adapters;
 
 import android.content.Context;
 import android.view.View;
@@ -6,8 +6,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.haoht.ex4.model.NotesModel;
+import com.example.week3_2.model.NotesModel;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class NotesAdapter extends BaseAdapter {
@@ -16,7 +17,7 @@ public class NotesAdapter extends BaseAdapter {
     private int layout;
     private List<NotesModel> notesList;
 
-    public NotesAdapter(Context context, int layout, List<NotesModel> notesList) {
+    public NotesAdapter(Context context, int layout, ArrayList<NotesModel> notesList) {
         this.context = context;
         this.layout = layout;
         this.notesList = notesList;
@@ -72,9 +73,9 @@ public class NotesAdapter extends BaseAdapter {
         if (convertView == null) {
             holder = new ViewHolder();
             convertView = View.inflate(context, layout, null);
-            holder.textViewNotes = convertView.findViewById(com.haoht.ex4.R.id.textViewNotes);
-            holder.imageViewEdit = convertView.findViewById(com.haoht.ex4.R.id.imageViewEdit);
-            holder.imageViewDelete = convertView.findViewById(com.haoht.ex4.R.id.imageViewDelete);
+            holder.textViewNotes = convertView.findViewById(com.example.week3_2.R.id.textViewNotes);
+            holder.imageViewEdit = convertView.findViewById(com.example.week3_2.R.id.imageViewEdit);
+            holder.imageViewDelete = convertView.findViewById(com.example.week3_2.R.id.imageViewDelete);
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();

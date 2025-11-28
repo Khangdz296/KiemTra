@@ -1,4 +1,4 @@
-package com.example.week3_1.Recycler_view;
+package com.example.week3_1;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.haoht.ex4.data;
+package com.example.week3_2.data;
 
 import android.content.Context;
 import android.database.Cursor;

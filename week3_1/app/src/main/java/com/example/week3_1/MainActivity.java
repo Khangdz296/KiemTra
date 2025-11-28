@@ -1,4 +1,4 @@
-package com.example.week3_1.List_view;
+package com.example.week3_1;
 
 import android.os.Bundle;
 import android.view.Window;
@@ -13,8 +13,6 @@ import android.widget.EditText;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.week3_1.R;
 
 import java.util.ArrayList;
 

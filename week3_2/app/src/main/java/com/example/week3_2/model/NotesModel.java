@@ -1,4 +1,4 @@
-package com.haoht.ex4.model;
+package com.example.week3_2.model;
 
 import java.io.Serializable;
 

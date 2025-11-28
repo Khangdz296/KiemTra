@@ -1,4 +1,4 @@
-package com.example.week3_1.Recycler_view;
+package com.example.week3_1;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,8 +7,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.example.week3_1.R;
 
 
 import androidx.annotation.NonNull;
