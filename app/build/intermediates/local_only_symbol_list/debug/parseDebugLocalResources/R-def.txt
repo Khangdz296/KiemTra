@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color teal_700
+color white
+drawable bg
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable intro1
+drawable intro2
+drawable intro3
+id btnStart
+id circle_indicator
+id imageIntro
+id main
+id textDescription
+id textTitle
+id viewPagerIntro
+layout activity_intro
+layout activity_main
+layout item_intro_slide
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.KiemTra
+style Theme.KiemTra
+xml backup_rules
+xml data_extraction_rules
