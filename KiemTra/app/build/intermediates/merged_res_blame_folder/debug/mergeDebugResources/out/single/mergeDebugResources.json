@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kiemtra.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kiemtra.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/drawable_bg_edittext.xml.flat",
+        "source": "com.example.kiemtra.app-main-38:/drawable/bg_edittext.xml"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.kiemtra.app-main-38:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.kiemtra.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/drawable_btn_arrow2.png.flat",
+        "source": "com.example.kiemtra.app-main-38:/drawable/btn_arrow2.png"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.kiemtra.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.kiemtra.app-main-38:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/drawable_email.png.flat",
+        "source": "com.example.kiemtra.app-main-38:/drawable/email.png"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kiemtra.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.kiemtra.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/layout_activity_main.xml.flat",
+        "source": "com.example.kiemtra.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/layout_layout_verifyotp.xml.flat",
+        "source": "com.example.kiemtra.app-main-38:/layout/layout_verifyotp.xml"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/drawable_top_background1.png.flat",
+        "source": "com.example.kiemtra.app-main-38:/drawable/top_background1.png"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.kiemtra.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.kiemtra.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.kiemtra.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/drawable_password.png.flat",
+        "source": "com.example.kiemtra.app-main-38:/drawable/password.png"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/xml_backup_rules.xml.flat",
+        "source": "com.example.kiemtra.app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.kiemtra.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/layout_layout_register.xml.flat",
+        "source": "com.example.kiemtra.app-main-38:/layout/layout_register.xml"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kiemtra.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kiemtra.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.kiemtra.app-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.kiemtra.app-debug-36:/drawable_name.png.flat",
+        "source": "com.example.kiemtra.app-main-38:/drawable/name.png"
+    }
+]
