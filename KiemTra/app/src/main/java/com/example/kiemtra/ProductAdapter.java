@@ -1,6 +1,6 @@
 //23162028 - cao dang huy
 package com.example.kiemtra;
-
+//23162028 - Cao Đăng Huy
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,7 +22,6 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
         this.productList = productList;
     }
 
-    // Hàm để thêm dữ liệu khi lazy loading
     public void addData(List<Product> newProducts) {
         int startPos = this.productList.size();
         this.productList.addAll(newProducts);
@@ -42,7 +41,6 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
         holder.tvName.setText(product.getName());
         holder.tvPrice.setText(String.format("%,.0f đ", product.getPrice()));
 
-        // Load ảnh bằng Glide
         Glide.with(context)
                 .load(product.getImageUrl())
                 .placeholder(R.mipmap.ic_launcher) // Ảnh chờ
