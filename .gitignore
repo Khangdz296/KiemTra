@@ -1,0 +1,72 @@
+# Gradle
+.gradle/
+build/
+**/build/
+*/build/
+
+# Local configuration
+local.properties
+gradle.properties
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Signing files
+*.jks
+*.keystore
+key.properties
+
+# Log/Temp
+*.log
+*.tmp
+*.temp
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# APK/JAR/BIN
+*.apk
+*.aar
+*.ap_
+*.jar
+*.war
+*.exe
+*.dll
+*.class
+
+# Generated files
+captures/
+outputs/
+generated/
+navigation.json
+
+# JetBrains
+out/
+
+# Kotlin
+*.kotlin_module
+
+# NDK
+obj/
+.externalNativeBuild/
+
+# Cache
+.cxx/
+.cache/
+
+# Firebase/Google Services
+google-services.json
+
+# IntelliJ
+*.idea/workspace.xml
+*.idea/tasks.xml
+*.idea/gradle.xml
+*.idea/libraries
+*.idea/caches/
+
+# Android Test artifacts
+test-output/
