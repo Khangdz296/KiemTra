@@ -1,18 +1,17 @@
 package com.example.kiemtra;
+
+
+
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
-
     private static Retrofit retrofit;
 
-    // Thay bằng base URL API của bạn, nhớ có dấu / ở cuối
-    private static final String BASE_URL = "http://10.0.2.2:8080/api/";
-
-    public static Retrofit getInstance() {
+    public static Retrofit getClient() {
         if (retrofit == null) {
             retrofit = new Retrofit.Builder()
-                    .baseUrl(BASE_URL)
+                    .baseUrl("http://10.0.2.2:8080/")
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
         }

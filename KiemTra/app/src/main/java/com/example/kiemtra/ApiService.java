@@ -1,20 +1,18 @@
 package com.example.kiemtra;
 
-import com.example.kiemtra.RegisterRequest;
-import com.example.kiemtra.OtpRequest;
-
-import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.Body;
+import retrofit2.http.Headers;
 import retrofit2.http.POST;
 
 public interface ApiService {
 
-    ApiService api = RetrofitClient.getInstance().create(ApiService.class);
+    @Headers("Content-Type: application/json")
+    @POST("api/register")
+    Call<RegisterResponse> register(@Body User user);
 
-    @POST("register")
-    Call<ResponseBody> register(@Body RegisterRequest request);
+    @Headers("Content-Type: application/json")
+    @POST("api/verify-otp")
+    Call<VerifyOtpResponse> verifyOtp(@Body VerifyOtpRequest req);
 
-    @POST("verify-otp")
-    Call<ResponseBody> verifyOtp(@Body OtpRequest request);
 }
